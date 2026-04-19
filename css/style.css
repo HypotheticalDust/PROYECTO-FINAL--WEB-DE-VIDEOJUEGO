@@ -7,7 +7,7 @@
 
 /* Body styles */
 body {
-    font-family: 'Pixelify Sans';
+  font-family: 'Pixelify Sans';
   background-color: #1e1e1e; /* Dark background */
   color: #d4d4d4; /* Light text color */
   line-height: 1.6;
@@ -20,8 +20,8 @@ header {
   border-bottom: 2px solid #444;
 }
 
-header h1 {
-  font-family: 'Impact', sans-serif;
+h1 {
+  font-family: 'Pixelify Sans';
   font-size: 2em;
   color: #ffd700; /* Goldish color for title */
   margin-bottom: 10px;
@@ -63,3 +63,15 @@ p {
   margin-bottom: 15px;
 }
 
+input[type=text] { 
+font-family: 'Pixelify Sans';
+}
+
+nav {
+  display: flex;
+  align-self: center;
+}
+
+nav > div {
+  margin: 15px
+}
