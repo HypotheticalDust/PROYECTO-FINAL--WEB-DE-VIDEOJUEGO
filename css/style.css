@@ -305,3 +305,29 @@ form {
 .demo:hover {
   opacity: 1;
 }
+
+/* fix buttons */
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* Fix number text  */
+.numbertext {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px; 
+  font-size: 25px;
+}
