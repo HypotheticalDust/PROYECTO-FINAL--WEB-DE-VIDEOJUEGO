@@ -59,6 +59,7 @@ nav {
   justify-content: center;
   gap: 15px;
   margin: 40px 20px;
+  font-size: 24px;
 }
 
 nav > div {
@@ -138,6 +139,20 @@ footer >.social-icons > a:hover {
 color: #ffd700;
 transition: color 0.3s ease; 
 text-decoration: underline;
+}
+
+/* try to put footer at bottom */
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer  {
+  padding: 1rem;
 }
 
 
@@ -329,5 +344,5 @@ form {
   width: 100%;
   text-align: center;
   margin-top: 10px; 
-  font-size: 25px;
+  font-size: 24px;
 }
