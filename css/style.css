@@ -21,13 +21,6 @@ a {
   text-decoration: none;
 }
 
-/* Header styles */
-header {
-  background-color: #000; /* Black header */
-  padding: 20px;
-  border-bottom: 2px solid #444;
-}
-
 h1 {
   font-family: 'Pixelify Sans';
   font-size: 2em;
@@ -138,7 +131,6 @@ footer >.social-icons {
 footer >.social-icons > a:hover {
 color: #ffd700;
 transition: color 0.3s ease; 
-text-decoration: underline;
 }
 
 /* try to put footer at bottom */
@@ -262,7 +254,7 @@ form {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: #ddd;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -279,12 +271,12 @@ form {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0);
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #ddd;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -296,7 +288,7 @@ form {
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
-  color: white;
+  color: #ddd;
 }
 
 .row:after {
@@ -345,4 +337,64 @@ form {
   text-align: center;
   margin-top: 10px; 
   font-size: 24px;
+}
+
+/* INDEX HOVER */
+
+.progression :hover {
+  transform: scale(1.1); 
+}
+
+.gallery :hover {
+  transform: scale(1.1); 
+}
+
+.mods :hover {
+  transform: scale(1.1); 
+}
+
+
+/* PROGRESSION PAGE */
+
+
+.stage1 :hover {
+  transform: scale(1.1); 
+  color: #ffd700;
+  transition: color 0.3s ease; 
+}
+
+.stage2 :hover {
+  transform: scale(1.1); 
+  color: #ffd700;
+  transition: color 0.3s ease; 
+}
+
+.stage3 :hover {
+  transform: scale(1.1); 
+  color: #ffd700;
+  transition: color 0.3s ease; 
+}
+
+.stage4 :hover {
+  transform: scale(1.1); 
+  color: #ffd700;
+  transition: color 0.3s ease; 
+}
+
+.stage5 :hover {
+  transform: scale(1.1); 
+  color: #ffd700;
+  transition: color 0.3s ease; 
+}
+
+.stage6 :hover {
+  transform: scale(1.1); 
+  color: #ffd700;
+  transition: color 0.3s ease; 
+}
+
+.stage7 :hover {
+  transform: scale(1.1); 
+  color: #ffd700;
+  transition: color 0.3s ease; 
 }
