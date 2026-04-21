@@ -398,3 +398,11 @@ form {
   color: #ffd700;
   transition: color 0.3s ease; 
 }
+
+p{
+  font-size: 24px;
+}
+
+div > p {
+  font-size: 24px;
+}
