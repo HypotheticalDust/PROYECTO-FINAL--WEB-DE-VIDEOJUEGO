@@ -356,7 +356,6 @@ form {
 
 /* PROGRESSION PAGE */
 
-
 .stage1 :hover {
   transform: scale(1.1); 
   color: #ffd700;
@@ -405,4 +404,21 @@ p{
 
 div > p {
   font-size: 24px;
+}
+
+/* CUSTOM CURSOR */
+
+body {
+  cursor: url(/media/cursor/Cursor1.cur), auto;
+}
+
+a:hover {
+  cursor: url('/media/cursor/Cursor1.cur'), auto;
+}
+
+/* CHECKLIST */
+
+.done {
+  color: #350303;
+  text-decoration: line-through solid black 2px;
 }
