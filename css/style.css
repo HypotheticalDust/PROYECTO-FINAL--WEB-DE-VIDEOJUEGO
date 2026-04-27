@@ -217,6 +217,14 @@ form > label {
   }
 }
 
+@media (max-width: 450px) {
+  .chartgif {
+   width: 300px;
+  }
+}
+
+
+
 .title {
 text-align: center ;  
 font-size: 40px;
@@ -422,3 +430,4 @@ a:hover {
   color: #350303;
   text-decoration: line-through solid black 2px;
 }
+
