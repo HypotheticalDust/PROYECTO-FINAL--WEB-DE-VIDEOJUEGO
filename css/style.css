@@ -364,46 +364,19 @@ form {
 
 /* PROGRESSION PAGE */
 
-.stage1 :hover {
-  transform: scale(1.1); 
-  color: #ffd700;
-  transition: color 0.3s ease; 
+.stage {
+  overflow: hidden;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
-.stage2 :hover {
-  transform: scale(1.1); 
-  color: #ffd700;
-  transition: color 0.3s ease; 
+.stage > * {
+  transition: 0.3s ease; 
 }
 
-.stage3 :hover {
+.stage :hover {
   transform: scale(1.1); 
   color: #ffd700;
-  transition: color 0.3s ease; 
-}
-
-.stage4 :hover {
-  transform: scale(1.1); 
-  color: #ffd700;
-  transition: color 0.3s ease; 
-}
-
-.stage5 :hover {
-  transform: scale(1.1); 
-  color: #ffd700;
-  transition: color 0.3s ease; 
-}
-
-.stage6 :hover {
-  transform: scale(1.1); 
-  color: #ffd700;
-  transition: color 0.3s ease; 
-}
-
-.stage7 :hover {
-  transform: scale(1.1); 
-  color: #ffd700;
-  transition: color 0.3s ease; 
 }
 
 p{
