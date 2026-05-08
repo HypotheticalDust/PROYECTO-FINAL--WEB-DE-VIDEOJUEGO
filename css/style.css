@@ -404,3 +404,14 @@ a:hover {
   text-decoration: line-through solid black 2px;
 }
 
+/* MEDIA PLAYER */
+<script>
+  const audio = document.getElementById('audio-player');
+  const playBtn = document.querySelector('.ctrl-play');
+  const stopBtn = document.querySelector('.ctrl-stop');
+  const prevBtn = document.querySelector('.ctrl-prev');
+  const nextBtn = document.querySelector('.ctrl-next');
+  const trackName = document.querySelector('.track-name');
+  const trackTime = document.querySelector('.track-time');
+  const statusText = document.querySelector('.status-text');
+  const progressFill = document.querySelector('.progress-fill');
