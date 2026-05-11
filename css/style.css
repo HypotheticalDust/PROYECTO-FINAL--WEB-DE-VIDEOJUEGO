@@ -405,13 +405,16 @@ a:hover {
 }
 
 /* MEDIA PLAYER */
-<script>
-  const audio = document.getElementById('audio-player');
-  const playBtn = document.querySelector('.ctrl-play');
-  const stopBtn = document.querySelector('.ctrl-stop');
-  const prevBtn = document.querySelector('.ctrl-prev');
-  const nextBtn = document.querySelector('.ctrl-next');
-  const trackName = document.querySelector('.track-name');
-  const trackTime = document.querySelector('.track-time');
-  const statusText = document.querySelector('.status-text');
-  const progressFill = document.querySelector('.progress-fill');
+audio::-webkit-media-controls-current-time-display {
+  font-family: 'Pixelify Sans';
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  font-family: 'Pixelify Sans';
+}
+
+audio::-webkit-media-controls-panel {
+  font-family: 'Pixelify Sans';
+  border-radius: 5px;
+}
+
