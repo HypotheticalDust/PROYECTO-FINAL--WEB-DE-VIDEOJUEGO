@@ -8,7 +8,7 @@
 /* Body styles */
 body {
   font-family: 'Pixelify Sans';
-  background-color: #350303; 
+  background-color: #000000; 
   color: #d4d4d4; 
   line-height: 1.6;
   background-image: url(/media/img/background.webp) ;
@@ -149,7 +149,11 @@ footer  {
 
 
 /* FORM */
-form > label {
+form > div > input  {
+  font-family: 'Pixelify Sans'
+}
+
+form > div > textarea  {
   font-family: 'Pixelify Sans'
 }
 
@@ -418,3 +422,91 @@ audio::-webkit-media-controls-panel {
   border-radius: 5px;
 }
 
+/* FORM ATTEMPT */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: 'Pixelify Sans';
+  gap: 10px;
+  padding-inline: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  border-radius: 20px;
+}
+
+.form-heading {
+  text-align: center;
+  margin: 2em;
+  color: #ffd700;
+  font-size: 1.2em;
+  background-color: transparent;
+  align-self: center;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 10px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #ccd6f6;
+  padding-inline: 1em;
+}
+
+.sendMessage-btn {
+  cursor: pointer;
+  margin-bottom: 3em;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ffd700;
+  font-weight: bold;
+  outline: 1px solid #ffd700;
+  transition: all ease-in-out 0.3s;
+  font-family: 'Pixelify Sans';
+}
+
+.sendMessage-btn:hover {
+  transition: all ease-in-out 0.3s;
+  background-color: #ffd700;
+  color: #000;
+  cursor: pointer;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.form-card1 {
+  background-image: linear-gradient(163deg, #350303 0%, #350303 100%);
+  border-radius: 22px;
+  transition: all 0.3s;
+}
+
+.form-card1:hover {
+  box-shadow: 0px 0px 30px 1px rgba(53, 3, 3, 1);
+}
+
+.form-card2 {
+  border-radius: 0;
+  transition: all 0.2s;
+}
+
+.form-card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
